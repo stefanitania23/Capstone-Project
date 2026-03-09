@@ -1,4 +1,4 @@
-# Transcriptomic Analysis of Lung Adenocarcinomar: Identification of Differentially Expressed Genes and Functional Enrichment Analysis
+# Transcriptomic Analysis of Lung Adenocarcinoma: Identification of Differentially Expressed Genes and Functional Enrichment Analysis
 
 ## Introduction 
 Lung cancer is one of the leading causes of cancer-related mortality worldwide and remains a major global health problem. According to recent global cancer statistics, approximately 2.5 million new cases of lung cancer and 1.8 million deaths were reported in 2022, accounting for about 18% of total cancer-related deaths. Lung cancer is broadly classified into two major categories: small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC), with NSCLC representing approximately 80–90% of all cases. NSCLC mainly consists of adenocarcinoma (ADC), squamous cell carcinoma (SCC), and large cell carcinoma (LCC), each of which has distinct molecular characteristics and clinical responses to therapy. Understanding the molecular mechanisms underlying lung cancer development is essential for improving diagnosis and therapeutic strategies.
@@ -22,8 +22,10 @@ KEGG Pathway Analysis. KEGG pathway mapping was performed using the KEGG Mapper 
 **3.1 Quality Assessment of Gene Expression Data**
 Data quality analysis of GSE27262 was seen through boxplot, density plot, and UMAP visualizations. The boxplot results demonstrated that the gene expression distribution across samples was relatively uniform in both tumor and normal groups, with the median of each sample falling within a similar range and no samples exhibiting extreme or outlier distributions (Figure 1). This indicates that the data had been well-normalized without significant outliers, confirming that the dataset is suitable for subsequent differential gene expression analysis. The density plot further confirmed that the distribution of gene expression values (log2) in both normal and tumor samples followed a relatively similar pattern with distribution peaks around 0, although minor variations in the tumor curve reflect the presence of gene expression heterogeneity in cancer tissue (Figure 2). Furthermore, the UMAP plot demonstrated a clear separation between normal and tumor tissue samples without significant overlap, indicating sufficiently distinctive gene expression pattern differences between the two groups, thus confirming that this dataset holds strong potential for Differentially Expressed Genes (DEGs) analysis (Figure 3).
 
-
+![imagealt](https://github.com/stefanitania23/Figure-Capstone-Project/blob/8bd442f19fd0181e9e2df9dab3b9d398c7417e1a/Boxplot%20GSE27262.png)
 Figure 1. Boxplot GSE27262.
+
+<img width="1000" height="500" alt="image" src="https://github.com/stefanitania23/Figure-Capstone-Project/blob/8bd442f19fd0181e9e2df9dab3b9d398c7417e1a/Density%20Plot%20GSE27262.png" />
 
 Figure 2. Density Plot GSE27262. 
 
